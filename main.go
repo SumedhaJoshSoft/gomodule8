@@ -8,6 +8,10 @@ import (
 
 func main() {
 	user := fakeuserdata.FakeUser()
-	fmt.Println(user)
+	if user != nil {
+		fmt.Println(user)
+	} else {
+		fmt.Println("User data not generated")
+	}
 
 }
