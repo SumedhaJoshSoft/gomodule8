@@ -14,7 +14,7 @@ type User struct {
 	Password    string `faker:"password"`
 }
 
-func fakeuser() (data *User) {
+func Fakeuser() (data *User) {
 	err := faker.FakeData(&data)
 	if err != nil {
 		fmt.Println(err)
