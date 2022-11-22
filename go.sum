@@ -1,0 +1,4 @@
+github.com/SumedhaJoshSoft/fakeuserdata v0.0.0-20221122100336-842e97c3863a h1:SVK96DlXcO6F+a2qPb0MuPRWFCFLxGV05E2vte+drLI=
+github.com/SumedhaJoshSoft/fakeuserdata v0.0.0-20221122100336-842e97c3863a/go.mod h1:WsRZPT3+RdGXnbczR1+7YBIs5UWZHprXom2/yJTYrCw=
+github.com/bxcodec/faker/v3 v3.8.0 h1:F59Qqnsh0BOtZRC+c4cXoB/VNYDMS3R5mlSpxIap1oU=
+github.com/bxcodec/faker/v3 v3.8.0/go.mod h1:gF31YgnMSMKgkvl+fyEo1xuSMbEuieyqfeslGYFjneM=
