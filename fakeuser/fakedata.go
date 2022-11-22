@@ -1,4 +1,4 @@
-package main
+package fakedata
 
 import (
 	"fmt"
@@ -14,12 +14,12 @@ type User struct {
 	Password    string `faker:"password"`
 }
 
-func main() {
-	data := User{}
+func fakeuser() (data *User) {
 	err := faker.FakeData(&data)
 	if err != nil {
 		fmt.Println(err)
+		return nil
 	}
-	fmt.Printf("%v", data)
+	return data
 
 }
